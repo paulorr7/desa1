@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="stylesheet" href="index.css">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+      <title>Frontend Mentor | Contact form</title>
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+         .attribution { font-size: 11px; text-align: center; }
+         .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+   </head>
+   <body>
+      <div>
+      <div style="background-color: hsl(187, 24%, 22%); position:absolute; width: 330px; height: 80px; text-align: center; border-radius: 9px; margin-top: 25px; margin-left: 110px;" class="sucesso">
+         <p class="none1" style="text-align: left; margin-top: 15px; color:  hsl(148, 38%, 91%); margin-left: 30px;"> Message Sent!</p>
+         <p class="none1" style="font-size: smaller; display: inline; color:  hsl(148, 38%, 91%); margin-left: 0px;"> Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
+      <div style="background-color:  hsl(0, 0%, 100%); border-radius: 10px; padding: 30px; margin-top: 100px; ">
+         <h1 style="margin-top: 0px; margin-left: 10px;">Contact Us</h1>
+         <form action="" class="form">
+            <div style=" display: flex;" class="div1">
+               <div  style=" display: inline-block;" class="name">
+                  <label for="a" class="">
+                     <p >First Name *</p>
+                  </label>
+                  <input type="text" id="a"  class="cursor"required >
+               </div>
+               <p class="none" style="position: absolute;margin-top: 60px;">This field is required
+               <p>
+               <div  class="dive">
+                  <label for="b" style=>
+                     <p>Last Name * </p>
+                  </label>
+                  <input type="text" id="b" style="width: 240px; height: 33px; margin-left: 0px; border-radius: 6px; margin-top: 10px; border: solid black 0.1px;" class="cursor" required>
+               </div>
+               <p class="none" style="position: absolute; margin-top: 60px; margin-left: 252px; " >This field is required</p>
+            </div>
+            <div style="margin-top: 25px;">
+               <label for="c">
+                  <p>Email Address *</p>
+               </label>
+               <input type="email" id="c" style="width: 99%; height: 33PX; border-radius: 6px; margin-top: 10px; border: solid black 0.1px;" required>
+            </div>
+            <p class="none">Please enter a valid email address
+               This field is required
+            </p>
+            <div style="margin-top: 25px;">
+               <p><label for="radio" class="cursor12">Query Type *</label></p>
+               <div style="border: solid black 0.1px; display: inline-block; padding: 0px; width: 44%; border-radius: 6px;margin-top: 20px; padding-right: 100px; padding: 10px;" class="cursor"><input type="radio" name="radio" value="General Enquiry" style="padding: px;" id="radio" class="cursor" required> <label for="radio" class="">General Enquiry </label></div>
+               <div style="border:solid black 0.1px; display: inline-block; ; width: 40%; padding: 10px; border-radius: 6px; margin-left: 18px; padding-right:21px;" class="cursor" ><input type="radio" name="radio" value=" Support Request" id="radio1" class="input"required > <label for="radio1" class="">Support Request</label> </div>
+               <p class="none">Please select a query type</p>
+               <p style="margin-top: 25px;"> <label for="texto">Message *</label></p>
+               <textarea name="Message" id="texto" style="width: 99%; height: 95px;border-radius: 6px; margin-top: 10px; border: solid black 0.1px;" required></textarea>
+               <p class="none">This field is required</p>
+               <div>
+                  <input type="checkbox" id="box" style="border-radius: 6px; margin-top: 20px; " required> <label for="box" class="consent"> I consent to being contacted by the team</label>
+               </div>
+               <p class="none">To submit this form, please consent to being contacted
+                  Submit
+               </p>
+               <div><input type="submit" value="submit" style="" id="submit"></div>
+         </form>
+         </div>
+      </div>
+   </body>
+</html>

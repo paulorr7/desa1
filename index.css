@@ -1,0 +1,96 @@
+
+.sucesso {
+    display: none;
+}
+.none {
+    display: none;
+    color: hsl(0, 66%, 54%);
+}
+
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    display: inline-block;
+    /* border: solid
+    black 1px; */
+    position: relative;
+    width: 500px;
+    margin-top: 20px;
+}
+body {
+    justify-content: center;
+    display: flex;
+    background-color: hsl(148, 38%, 91%);
+}
+#a {
+    width: 240px;
+    height: 33px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: -3px;
+    border: solid hsl(180, 50%, 1%) 0.1px;
+}
+#a:hover {
+    border: solid hsl(169, 82%, 27%) 0.1px;
+}
+#a:focus {
+    border: solid hsl(169, 82%, 27%) 1px;
+}
+#submit {
+    color: hsl(0, 0%, 100%);
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 99%;
+    background-color: hsl(169, 82%, 27%);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+label {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-size: smaller;
+}
+
+#submit:hover {
+    background-color: hsl(187, 24%, 22%);
+    cursor: pointer;
+}
+
+.dive {
+    display: inline-block;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    border: solid hsl(169, 82%, 27%) 0.1px;
+}
+
+.cursor:focus {
+}
+
+.consent:hover {
+    cursor: pointer;
+}
+
+/* .cursor:active{background-color:   hsl(148, 38%, 91%);} */
+
+.none1 {a
+    display: block;
+    font-size: 16px;
+    height: 30px;
+}
